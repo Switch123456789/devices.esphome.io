@@ -29,7 +29,7 @@ So make sure you only flash firmware that allows wireless OTA updates.
 | 4    | Relay (Power Socket 2) |
 | 12   | Relay (Power Socket 3) |
 | 13   | Relay (Power Socket 4) |
-| 14   | Relay (USB Socket)     | 
+| 14   | Relay (USB Socket)     |
 
 ## Basic config
 
@@ -53,7 +53,7 @@ So make sure you only flash firmware that allows wireless OTA updates.
 
 - **Mainswitch:**
   On turn off the current socket-states get stored, so they can get restored on turn on.
-  If a relay gets turned on while the mainswitch is off, the socket-states won't be restored in order to have more predictable behavior.
+  If a relay gets turned on while the mainswitch is off, the socket-states won't be restored to prevent unpredictable behavior.
   The LED on the button indicates the state of the mainswitch.
 - **Adjustable button-behavior:**
   It can be set to toggle the mainswitch, toggle any of the sockets or do nothing.
