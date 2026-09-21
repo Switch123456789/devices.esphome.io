@@ -72,7 +72,7 @@ switch:
     optimistic: True
     restore_mode: RESTORE_DEFAULT_OFF
 
-# USB SOCKET 
+# USB SOCKET
   - id: usb_socket
     name: "Power socket USB"
     platform: gpio
