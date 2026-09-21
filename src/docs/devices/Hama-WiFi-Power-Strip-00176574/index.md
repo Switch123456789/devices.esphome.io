@@ -5,7 +5,7 @@ type: plug
 standard: eu
 board: esp8266
 project-url: https://github.com/esphome/devices.esphome.io/edit/main/src/docs/devices/Hama-WiFi-Power-Strip-00176574/config.yaml
-made-for-esphome: False
+made-for-esphome: false
 difficulty: 2
 ---
 
